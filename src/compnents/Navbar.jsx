@@ -4,7 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const location = useLocation(); // Fungura URL iriho
+  const location = useLocation(); 
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
