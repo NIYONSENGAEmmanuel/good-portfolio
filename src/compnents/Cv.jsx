@@ -17,12 +17,15 @@ const Cv = () => {
           <h1 className="text-4xl font-bold">Curriculum Vitae</h1>
         </div>
 
-        <div className="bg-blue-900 text-white p-6 flex flex-col items-center">
-          <img
-            src="public/images/171128359.jpeg" 
-            alt="Profile"
-            className="w-32 h-32 rounded-full border-4 border-white mb-4"
+        <div className="bg-blue-900 text-white p-[-100px] flex flex-col items-center">
+        <div className=" overflow-hidden  sm:w-52  ">
+        <img
+        
+               src="/images/171128359.jpeg"
+              alt="Niyonsenga Emmanuel"
+            className="w-32  object-cover h-32 rounded-full border-4 border-white mb-4"
           />
+          </div>
           <h1 className="text-3xl font-bold">Niyonsenga Emmanuel</h1>
           <p className="text-lg mt-2">Software Developer</p>
         </div>
