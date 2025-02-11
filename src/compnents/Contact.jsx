@@ -12,7 +12,7 @@ const Contact = () => {
         src="/images/images (1).jpeg"
         alt="Logo"
       />
-      <div className="bg-white p-6 sm:p-12 md:p-16 lg:p-20 bg-opacity-95 rounded-lg w-full max-w-3xl shadow-2xl border border-gray-300">
+      <div className="bg-white p-6 sm:p-12 md:p-16 lg:p-20 bg-opacity-95 mt-14 rounded-lg w-full max-w-3xl shadow-2xl border border-gray-300">
         <h2 className="text-4xl font-extrabold text-center text-gray-800 mb-8">Contact Me</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="bg-gradient-to-r from-white to-gray-100 shadow-lg rounded-lg p-6">
